@@ -95,7 +95,7 @@ a {
       margin-top: 40px;
 }
 
-.skills .title {
+.title {
       width: 199px;
       height: 46px;
       flex-shrink: 0;
@@ -145,6 +145,48 @@ a {
 .card .text {
       width: 273px;
       height: 276px;
+      color: #000;
+      text-align: center;
+      font-family: Arial;
+      font-size: 19px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+}
+
+
+
+.about_me .field {
+      width: 1180px;
+      height: 274px;
+      flex-shrink: 0;
+      border-radius: 25px;
+      background: #FFF;
+      display: flex;
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 36px;
+      margin-top: 3%;
+}
+
+.about_me .container {
+      justify-content: center;
+      display: flex;
+}
+
+.about_me .head {
+      color: #000;
+      text-align: center;
+      font-family: Arial;
+      font-size: 37px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+}
+
+.about_me .text {
       color: #000;
       text-align: center;
       font-family: Arial;
