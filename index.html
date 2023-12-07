@@ -5,6 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="style.css">
       <title>Marc</title>
+      <script src="app.js" defer></script>
 </head>
 <body>
       <script src="main.js"></script>
@@ -18,7 +19,7 @@
                         <div id="github" class="button">Github</div>
                   </a>
                   <div id="projects" class="button">Projects</div>
-                  <a href="#about_me">
+                  <a onclick="scrollZuElement()">
                         <div id="about_me" class="button">About me</div>
                   </a>
             </div>
@@ -30,52 +31,55 @@
                         <img src="Pictures/undraw_developer_activity_re_39tg.svg">
                   </div>
             </div>
-            <div class="skills">
-                  <div class="title_container">
-                        <div class="title">Skills</div>
-                  </div>
-                  <div class="cards_container">
-                        <div class="cards">
-                              <div id="HTML_CSS_JS" class="card">
-                                    <div class="card_title">
-                                          HTML / CSS / Javascript
+            <div class="hidden">
+                  <div class="skills">
+                        <div class="title_container">
+                              <div class="title">Skills</div>
+                        </div>
+                        <div class="cards_container">
+                              <div class="cards">
+                                    <div id="HTML_CSS_JS" class="card">
+                                          <div class="card_title">
+                                                HTML / CSS / Javascript
+                                          </div>
+                                          <div class="text">
+                                                I have strong skills in HTML and CSS, specialising in creating adaptive user interfaces for optimal display on all devices. I am currently deepening my knowledge of JavaScript to develop dynamic web applications. My focus is on continuous learning and applying new technologies for innovative, user-friendly web solutions.
+                                          </div>
                                     </div>
-                                    <div class="text">
-                                          I have strong skills in HTML and CSS, specialising in creating adaptive user interfaces for optimal display on all devices. I am currently deepening my knowledge of JavaScript to develop dynamic web applications. My focus is on continuous learning and applying new technologies for innovative, user-friendly web solutions.
+                                    <div id="Figma" class="card">
+                                          <div class="card_title">
+                                                Figma
+                                          </div>
+                                          <div class="text">
+                                                I create basic designs in Figma, which I can efficiently convert into code thanks to the developer mode. My focus is on user-centred design that harmoniously combines aesthetics and functionality. This ability allows me to navigate from conception to final realisation to ensure engaging and intuitive user experiences.
+                                          </div>
                                     </div>
-                              </div>
-                              <div id="Figma" class="card">
-                                    <div class="card_title">
-                                          Figma
-                                    </div>
-                                    <div class="text">
-                                          I create basic designs in Figma, which I can efficiently convert into code thanks to the developer mode. My focus is on user-centred design that harmoniously combines aesthetics and functionality. This ability allows me to navigate from conception to final realisation to ensure engaging and intuitive user experiences.
-                                    </div>
-                              </div>
-                              <div id="git" class="card">
-                                    <div class="card_title">
-                                          Git / Github
-                                    </div>
-                                    <div class="text">
-                                          I have a solid knowledge of Git and GitHub, which allows me to efficiently manage version control and improve team collaboration on software projects. My experience includes branching, merging and conflict resolution in Git as well as managing repositories and utilising issues and pull requests on GitHub.
+                                    <div id="git" class="card">
+                                          <div class="card_title">
+                                                Git / Github
+                                          </div>
+                                          <div class="text">
+                                                I have a solid knowledge of Git and GitHub, which allows me to efficiently manage version control and improve team collaboration on software projects. My experience includes branching, merging and conflict resolution in Git as well as managing repositories and utilising issues and pull requests on GitHub.
+                                          </div>
                                     </div>
                               </div>
                         </div>
                   </div>
             </div>
-            <div class="about_me" id="about_me">
-                  <div class="title_container">
-                        <div class="title">About me</div>
-                  </div>
-                  <div class="container">
-                        <div class="field">
-                              <div class="head">Hello, I'm Marc. I'm a self-learner who loves challenges, and I'm always open to new projects.</div>
-                              <div class="text">I'm all about self-teaching and diving into new tech stuff. Coding's my thing, especially with HTML, CSS, and JavaScript. I love taking on cool projects where I can throw in my own creative twist. Always game for new challenges and keen to keep learning and improving.</div>
+            <div class="hidden">
+                  <div class="about_me">
+                        <div class="title_container">
+                              <div class="title">About me</div>
+                        </div>
+                        <div class="container" id="scroll">
+                              <div class="field">
+                                    <div class="head">Hello, I'm Marc. I'm a self-learner who loves challenges, and I'm always open to new projects.</div>
+                                    <div class="text">I'm all about self-teaching and diving into new tech stuff. Coding's my thing, especially with HTML, CSS, and JavaScript. I love taking on cool projects where I can throw in my own creative twist. Always game for new challenges and keen to keep learning and improving.</div>
+                              </div>
                         </div>
                   </div>
-                  
-
             </div>
+            
       </div>
 </body>
 </html>

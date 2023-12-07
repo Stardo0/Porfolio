@@ -24,3 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
       type(); // Starte die Schreibmaschinen-Funktion
   });
   
+
+  function scrollZuElement() {
+      document.getElementById("scroll").scrollIntoView({behavior: 'smooth'});
+  }
