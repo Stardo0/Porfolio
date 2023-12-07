@@ -2,7 +2,19 @@ body {
       background: #202020;
 }
 
+a {
+      text-decoration: none;
+}
 
+.name {
+      display: flex;
+}
+
+#avatar {
+      padding-bottom: 10px;
+      margin-left: 5%;
+      margin-right: 5%;
+}
 
 .topbar {
       display: flex;
