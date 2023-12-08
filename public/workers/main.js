@@ -28,3 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function scrollZuElement() {
       document.getElementById("scroll").scrollIntoView({behavior: 'smooth'});
   }
+
+  function commingsoon() {
+    alert("Comming Soon");
+  }
