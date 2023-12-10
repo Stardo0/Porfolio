@@ -1,19 +1,17 @@
-            // admin.js
 
             // Firebase-Konfiguration
             const firebaseConfig = {
                   apiKey: "AIzaSyCdKFg1F3IJx0YJ3m8tqGRWwZXY5-nkFOk",
                   authDomain: "portfolio-e39c4.firebaseapp.com",
-                  databaseURL: "https://portfolio-e39c4-default-rtdb.europe-west1.firebasedatabase.app",
+                  databaseURL: "https://portfolio-e39c4-default-rtdb.europe-west1.firebasedatabase.app/",
                   projectId: "portfolio-e39c4",
                   storageBucket: "portfolio-e39c4.appspot.com",
                   messagingSenderId: "514938210125",
                   appId: "1:514938210125:web:2cfa38f06419441c37d904",
-                  measurementId: "G-SDP9011BY6"
+                  measurementId: "G-SDP9011BY6",
                   };
 
-            firebase.initializeApp(firebaseConfig);
-
+firebase.initializeApp(firebaseConfig);
 // Referenz zur Datenbank
 const db = firebase.database();
 
@@ -42,3 +40,5 @@ var quill = new Quill('#editor', {
       postForm.reset();
       quill.setContents([]); // Reset the editor
   });
+
+
