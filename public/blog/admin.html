@@ -1,0 +1,30 @@
+<html>
+<head>
+      <title>Admin Seite</title>
+      <link rel="stylesheet" type="text/css" href="./style/admin.css">
+</head>
+<body>
+      <div class="titelcontainer">
+            <h1>Neuen Blogpost erstellen</h1>
+      </div>
+      <form id="postForm">
+            <label for="title">Titel:</label><br>
+            <input type="text" id="title" name="title"><br>
+            <label for="content">Inhalt:</label><br>
+            <div id="editor"></div>
+            <label for="tags">Tags (durch Kommas getrennt):</label><br>
+            <input type="text" id="tags" name="tags"><br>
+            <input type="submit" value="Post erstellen">
+      </form>
+
+
+      <!-- Include Quill stylesheet -->
+      <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+
+      <!-- Include Quill library -->
+      <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+      <script src="./workers/admin.js"></script>
+</body>
+</html>

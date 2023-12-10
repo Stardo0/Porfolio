@@ -1,0 +1,45 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+  }
+  #postForm {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  #postForm label {
+      font-weight: bold;
+  }
+#postForm input[type="text"],
+#postForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+  #postForm input[type="submit"] {
+      background-color: #007BFF;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  #postForm input[type="submit"]:hover {
+      background-color: #0056b3;
+  }
+
+  .titelcontainer {
+      display: flex;
+      justify-content: center;
+  }
+
+  #content {
+     height: 300px;
+  }

@@ -131,7 +131,7 @@ a {
       height: 455px;
       flex-shrink: 0;
       border-radius: 25px;
-      background: #FAFAFA;
+      background: #FFF;
       display: inline-flex;
       flex-direction: column;
       justify-content: center;
@@ -169,7 +169,7 @@ a {
       height: auto;
       flex-shrink: 0;
       border-radius: 25px;
-      background: #FAFAFA;
+      background: #FFF;
       display: flex;
       flex-direction: column;
       justify-content: center;
